@@ -71,7 +71,7 @@ document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
   }
 
   
-// =======================================click evenr
+// =======================================click event
 $(".flipster__nav__link").on("click",function(){
     $('.card-title').addClass('d-none')
     $('.flipster-container').find('p[data-title="'+ $(this).text() +'"]').removeClass('d-none')
@@ -79,3 +79,17 @@ $(".flipster__nav__link").on("click",function(){
     $('.card-price').addClass('d-none')
     $('.flipster-container').find('p[data-price="'+ $(this).text() +'"]').removeClass('d-none')
 })
+
+// =========================================inc/dec buttons
+function up(max) {
+    document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) + 1;
+    if (document.getElementById("myNumber").value >= parseInt(max)) {
+        document.getElementById("myNumber").value = max;
+    }
+}
+function down(min) {
+    document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) - 1;
+    if (document.getElementById("myNumber").value <= parseInt(min)) {
+        document.getElementById("myNumber").value = min;
+    }
+}
