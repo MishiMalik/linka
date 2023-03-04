@@ -19,6 +19,11 @@
         height: auto;
         margin-top: 30px;
     }
+    .form-card{
+
+    padding: 25px 25px;
+   
+    }
 }
 
 @media only screen and (max-width:1024px) {
