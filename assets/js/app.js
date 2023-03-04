@@ -71,3 +71,11 @@ document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
   }
 
   
+// =======================================click evenr
+$(".flipster__nav__link").on("click",function(){
+    $('.card-title').addClass('d-none')
+    $('.flipster-container').find('p[data-title="'+ $(this).text() +'"]').removeClass('d-none')
+
+    $('.card-price').addClass('d-none')
+    $('.flipster-container').find('p[data-price="'+ $(this).text() +'"]').removeClass('d-none')
+})
