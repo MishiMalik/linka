@@ -1,88 +1,111 @@
-@media only screen and (min-width:1600px){
-    .padding{
+@media only screen and (min-width:1600px) {
+    .padding {
         padding: 0px 120px;
     }
 }
-@media only screen and (max-width:1240px){
-    .f-24{
+
+@media only screen and (max-width:1240px) {
+    .f-24 {
         font-size: 22px;
     }
-    .scroll-card{
+
+    .scroll-card {
         width: 300px;
         height: auto;
         height: 100% !important;
-     }
-     .spare-card-row{
+    }
+
+    .spare-card-row {
         height: auto;
         margin-top: 30px;
-        }
+    }
 }
-@media only screen and (max-width:1024px){
+
+@media only screen and (max-width:1024px) {
     .main-heading {
         font-size: 46px;
         line-height: 35px;
         font-weight: 600;
     }
-    .f-48{
+
+    .f-48 {
         font-size: 46px;
     }
-    .f-46{
+
+    .f-46 {
         font-size: 44px;
     }
-    .f-44{
+
+    .f-44 {
         font-size: 42px;
     }
-    .f-42{
+
+    .f-42 {
         font-size: 40px;
     }
-    .f-40{
+
+    .f-40 {
         font-size: 38px;
     }
-    .f-38{
+
+    .f-38 {
         font-size: 36px;
     }
-    .f-36{
+
+    .f-36 {
         font-size: 34px;
     }
-    .f-34{
+
+    .f-34 {
         font-size: 32px;
     }
-    .f-32{
+
+    .f-32 {
         font-size: 30px;
     }
-    .f-30{
+
+    .f-30 {
         font-size: 28px;
     }
-    .f-28{
+
+    .f-28 {
         font-size: 26px;
     }
-    .f-26{
+
+    .f-26 {
         font-size: 24px;
     }
-    .f-24{
+
+    .f-24 {
         font-size: 22px;
     }
-    .f-22{
+
+    .f-22 {
         font-size: 20px;
     }
-    .f-20{
+
+    .f-20 {
         font-size: 18px;
     }
-    .f-18{
+
+    .f-18 {
         font-size: 16px;
     }
 }
-@media only screen and (max-width:1050px){
-    .blue-btn{
+
+@media only screen and (max-width:1050px) {
+    .blue-btn {
         font-size: 14px;
         padding: 14px 10px;
     }
 }
-@media only screen and (max-width:767px){
-    .padding{
+
+@media only screen and (max-width:767px) {
+    .padding {
         padding: 0px 6px;
     }
-    .blue-btn{
+
+    .blue-btn {
         background: #3C1AED;
         border-radius: 4px;
         border: none;
@@ -91,88 +114,110 @@
         color: #FFFFFF;
         padding: 14px 20px;
     }
-    .white-input{
-    padding: 10px 16px;
-    width: 100%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+
+    .white-input {
+        padding: 10px 16px;
+        width: 100%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
     }
-    .form-card{
-    padding: 15px;
+
+    .form-card {
+        padding: 15px;
     }
-    .scroll-card{
+
+    .scroll-card {
         width: 200px;
         height: auto;
         height: 100% !important;
-     }
-         .flipster__nav__link {
-             width: 130px;
-             height: 49px;
-    
-         }
-    
-         .flipster__nav__item--current .flipster__nav__link {
-             width: 140px;
-             height: 59px;
-         }
+    }
+
+    .flipster__nav__link {
+        width: 130px;
+        height: 49px;
+
+    }
+
+    .flipster__nav__item--current .flipster__nav__link {
+        width: 140px;
+        height: 59px;
+    }
 }
-@media only screen and (max-width:500px){
+
+@media only screen and (max-width:500px) {
     .main-heading {
         font-size: 36px;
     }
-    .f-48{
+
+    .f-48 {
         font-size: 40px;
     }
-    .f-46{
+
+    .f-46 {
         font-size: 42px;
     }
-    .f-44{
+
+    .f-44 {
         font-size: 40px;
     }
-    .f-42{
+
+    .f-42 {
         font-size: 38px;
     }
-    .f-40{
+
+    .f-40 {
         font-size: 38px;
     }
-    .f-38{
+
+    .f-38 {
         font-size: 34px;
     }
-    .f-36{
+
+    .f-36 {
         font-size: 32px;
     }
-    .f-34{
+
+    .f-34 {
         font-size: 30px;
     }
-    .f-32{
+
+    .f-32 {
         font-size: 28px;
     }
-    .f-30{
+
+    .f-30 {
         font-size: 26px;
     }
-    .f-28{
+
+    .f-28 {
         font-size: 24px;
     }
-    .f-26{
+
+    .f-26 {
         font-size: 22px;
     }
-    .f-24{
+
+    .f-24 {
         font-size: 20px;
     }
-    .f-22{
+
+    .f-22 {
         font-size: 18px;
     }
-    .flipster__nav__link{
+
+    .flipster__nav__link {
         width: 100px;
-    height: 40px;
-    
-     }
-     .flipster__nav__item--current  .flipster__nav__link{
+        height: 40px;
+
+    }
+
+    .flipster__nav__item--current .flipster__nav__link {
         width: 110px;
         height: 50px;
     }
-    .navbar-nav{
+
+    .navbar-nav {
         position: absolute;
         top: 70px;
         left: 0;
@@ -180,24 +225,29 @@
         background-color: black;
     }
 }
-@media only screen and (max-width:350px){
+
+@media only screen and (max-width:350px) {
     .main-heading {
         font-size: 30px;
     }
-    .f-24{
+
+    .f-24 {
         font-size: 18px;
     }
-    .scroll-card{
+
+    .scroll-card {
         width: 180px;
         height: auto;
         height: 100% !important;
-     }
-     .flipster__nav__link{
+    }
+
+    .flipster__nav__link {
         width: 90px;
-    height: 35px;
-    
-     }
-     .flipster__nav__item--current  .flipster__nav__link{
+        height: 35px;
+
+    }
+
+    .flipster__nav__item--current .flipster__nav__link {
         width: 100px;
         height: 40px;
     }
