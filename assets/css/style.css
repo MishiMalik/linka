@@ -106,11 +106,46 @@ body {
 .text-gray {
     color: #777777 !important;
 }
-
-/* ==================================================================common */
 .padding {
-    padding: 0px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+.padding-y-150{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.mb-75{
+    margin-bottom: 75px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mt-85{
+    margin-top: 85px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-150{
+    margin-bottom: 150px;
+}
+/* ==================================================================common */
+
 
 .main-heading {
     font-family: 'Poppins';
@@ -119,6 +154,7 @@ body {
     font-size: 56px;
     line-height: 84px;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .gray-text {

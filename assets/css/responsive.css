@@ -1,10 +1,47 @@
 @media only screen and (min-width:1600px) {
     .padding {
-        padding: 0px 120px;
+        padding-left: 120px;
+        padding-right: 120px;
     }
+   
 }
 
-@media only screen and (max-width:1240px) {
+@media only screen and (max-width:1280px) {
+    .padding-y-150{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .mb-75{
+        margin-bottom: 55px;
+    }
+    .mb-100{
+        margin-bottom: 80px;
+    }
+    .mb-24{
+        margin-bottom: 14px;
+    }
+    .mt-85{
+        margin-top: 65px;
+    }
+
+    .mb-32{
+        margin-bottom: 28px;
+    }
+    .mt-100{
+        margin-top: 80px;
+    }
+    .pt-100{
+        padding-top: 80px;
+    }
+    .pb-100{
+        padding-bottom: 80px;
+    }
+    .mb-50{
+        margin-bottom: 40px;
+    }
+    .mb-150{
+        margin-bottom: 100px;
+    }
     .f-24 {
         font-size: 22px;
     }
@@ -121,9 +158,35 @@
 
 @media only screen and (max-width:767px) {
     .padding {
-        padding: 0px 6px;
+        padding-left: 6px;
+        padding-right: 6px;
     }
-
+    .padding-y-150{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .mb-75{
+        margin-bottom: 45px;
+    }
+    .mb-100{
+        margin-bottom: 70px;
+    }
+    .mb-24{
+        margin-bottom: 14px;
+    }
+    .mt-85{
+        margin-top: 55px;
+    }
+    .mb-32{
+        margin-bottom: 25px;
+    }
+    
+    .mb-50{
+        margin-bottom: 35px;
+    }
+    .mb-150{
+        margin-bottom: 80px;
+    }
     .blue-btn {
         background: #3C1AED;
         border-radius: 4px;
@@ -200,6 +263,40 @@
 }
 
 @media only screen and (max-width:500px) {
+    .padding-y-150{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .mb-75{
+        margin-bottom: 30px;
+    }
+    .mb-100{
+        margin-bottom: 60px;
+    }
+    .mb-24{
+        margin-bottom: 14px;
+    }
+    .mt-85{
+        margin-top: 45px;
+    }
+    .mb-32{
+        margin-bottom: 20px;
+    }
+    .mb-50{
+        margin-bottom: 30px;
+    }
+    .mb-150{
+        margin-bottom: 60px;
+    }
+    .main-heading {
+        margin-bottom: 12px;
+    }
+    .pt-100{
+        padding-top: 60px;
+    }
+    .pb-100{
+        padding-bottom: 60px;
+    }
     .link-card-img{
         height: 45px !important;
         width: 55px !important;
