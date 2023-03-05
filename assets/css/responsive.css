@@ -24,6 +24,9 @@
     padding: 25px 25px;
    
     }
+    .checkout-card{
+        padding: 30px 15px;
+        }
 }
 
 @media only screen and (max-width:1024px) {
@@ -153,6 +156,9 @@
         align-items: center !important;
         justify-content: center !important;
         padding: 15px;
+    }
+    .pricing-card{
+        padding:20px 20px;
     }
 }
 

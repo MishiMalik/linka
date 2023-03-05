@@ -99,6 +99,10 @@ body{
 .primary-text{
     color: #3C1AED !important;
 }
+.gray-light-text{
+    color: #7F7F7F;
+    opacity: 0.7;
+}
 .blue-btn{
 background: #3C1AED;
 border-radius: 4px;
@@ -448,4 +452,54 @@ font-size: 18px;
 line-height: 27px;
 text-align: center;
 color: #777777;
+}
+/* =======================================================pricing cards */
+.pricing-card{
+    background-color: #121212;
+    padding:30px 30px;
+box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+display: flex;
+flex-direction: column;
+}
+.checkout-card{
+    background: #FFFFFF;
+box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+padding: 40px 60px;
+}
+.checkout-input{
+    position: relative;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(119, 119, 119, 0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 16px 21px;
+    padding-left: 40px;
+}
+.checkout-input img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+ 
+}
+.checkout-input input{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding:0px 15px
+}
+.checkout-input input:active,
+.checkout-input input:focus{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.checkout-input input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+
+opacity: 0.5;
+ 
 }
